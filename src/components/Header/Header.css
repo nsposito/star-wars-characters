@@ -1,0 +1,14 @@
+.App-header {
+    background-color: #262525 !important;
+    height: 100px;
+    display: flex;
+    color: white;
+  }
+
+  .App-header div {
+      margin-left: 50px;
+  }
+  
+  .App-header h1 {
+    font-size: 30px;
+  }

@@ -1,0 +1,15 @@
+.filter-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.filter-button {
+    border-radius: 15px;
+    background-color: #262525;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+}

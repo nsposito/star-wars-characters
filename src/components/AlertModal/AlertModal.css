@@ -1,0 +1,58 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modalContainer .title {
+    text-align: center;
+  }
+  
+  
+  .modalContainer .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .secondButton {
+      background-color: #262525 !important;
+      border: none !important;
+      color: white !important;
+  }
+  

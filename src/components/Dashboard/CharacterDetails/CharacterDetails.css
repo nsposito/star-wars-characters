@@ -1,0 +1,83 @@
+.back-button-container {
+    width: 100vw;
+    margin-left: 90px;
+}
+
+.go-back-button {
+    background-color: #262525;
+    color: white;
+    border: none;
+}
+
+.card-container {
+    width: 250px;
+}
+
+input {
+    background-color: #262525;
+    color: white;
+    border: none;
+    width: 50px;
+    font-size: medium;
+}
+
+input::placeholder {
+    color: white;
+    font-size: medium;
+}
+
+.character-name-input {
+    width: 210px !important;
+    font-size: x-large !important;
+}
+
+.character-name-input::placeholder {
+    font-size: larger !important;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.details-container span{
+    color: white;
+    font-size: medium;
+}
+
+.details-container label{
+    color: white;
+    font-size: medium;
+}
+
+.character-height {
+    margin-right: 28px;
+}
+
+.edit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-button {
+    border-radius: 15px;
+    background-color: #262525;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+}
+
+.save-button {
+    border-radius: 15px;
+    background-color: #262525;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+}

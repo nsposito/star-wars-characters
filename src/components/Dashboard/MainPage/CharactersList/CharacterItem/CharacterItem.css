@@ -1,0 +1,54 @@
+
+
+.item-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 250px;
+    background-color: #262525;
+}
+
+.delete-button {
+    flex:0.1;
+    color: #616060;
+    background-color: #262525;
+    border: 0;
+    font-size: 20px;
+}
+
+.information-container {
+    flex:0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.character-name-container {
+    align-self:center;
+}
+
+.character-name {
+    font-size: 24px;
+    color: white;
+}
+
+.fav-icon {
+    align-self:flex-end;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.subtitle-container {
+    height: 40px;
+    color: white;
+}
+
+
+

@@ -1,0 +1,9 @@
+.button-isFavorite {
+    background-color: #262525;
+    border: none;
+}
+
+.button-isNotFavorite{
+    background-color: #262525;
+    border: none;
+}

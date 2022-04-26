@@ -1,0 +1,17 @@
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+.buttons-container button {
+    color: white;
+    background-color: #262525;
+    border: 0;
+    display: flex;
+}
+
+.disabled-button {
+    color: grey !important
+}
